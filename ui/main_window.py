@@ -1,8 +1,4 @@
-# ui/main_window.py
-"""
-Main window cho ứng dụng String Search Studio
-"""
-
+# main_window.py
 import tkinter as tk
 from tkinter import ttk
 from config import UI_CONFIG, DEFAULT_VALUES, ALGORITHM_CONFIG, THEME_CONFIG, COLORS
@@ -11,10 +7,6 @@ from .boyer_moore_widget import BoyerMooreWidget
 
 
 class MainWindow(tk.Tk):
-    """
-    Main window của ứng dụng
-    """
-    
     def __init__(self):
         super().__init__()
         

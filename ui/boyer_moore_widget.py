@@ -1,20 +1,12 @@
 # ui/boyer_moore_widget.py
-"""
-Widget cho thuật toán Boyer-Moore
-"""
-
 import tkinter as tk
 from tkinter import ttk
 from .base_widget import BaseAlgorithmWidget
 from algorithms import BoyerMooreAlgorithm
 from config import COLORS
 
-
 class BoyerMooreWidget(BaseAlgorithmWidget):
-    """
-    Widget hiển thị thuật toán Boyer-Moore
-    """
-    
+    """Widget cho thuật toán Boyer-Moore"""
     def __init__(self, master, show_toolbar=True, font_size=18):
         algorithm = BoyerMooreAlgorithm()
         self.array_var = None  # Khởi tạo trước khi gọi super()

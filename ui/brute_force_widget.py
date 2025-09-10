@@ -1,17 +1,8 @@
 # ui/brute_force_widget.py
-"""
-Widget cho thuật toán Brute Force
-"""
-
-from tkinter import ttk
 from .base_widget import BaseAlgorithmWidget
 from algorithms import BruteForceAlgorithm
 
-
 class BruteForceWidget(BaseAlgorithmWidget):
-    """
-    Widget hiển thị thuật toán Brute Force
-    """
     
     def __init__(self, master, show_toolbar=True, font_size=18):
         algorithm = BruteForceAlgorithm()
